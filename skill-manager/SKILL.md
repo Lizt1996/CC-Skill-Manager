@@ -36,7 +36,12 @@ git clone https://github.com/obra/superpowers.git /tmp/superpowers
 cp -r /tmp/superpowers/skills/* ~/.claude/skills/
 ```
 
-**自建 skill：** 参考 `skill-registry` 中"本地自建"部分，手动创建或从备份复制。
+**自建 skill（`skill-manager` + `skill-registry`）：**
+```bash
+git clone https://github.com/Lizt1996/CC-Skill-Manager.git /tmp/cc-skill-manager
+cp -r /tmp/cc-skill-manager/skill-manager ~/.claude/skills/
+cp -r /tmp/cc-skill-manager/skill-registry ~/.claude/skills/
+```
 
 ### 第三步：验证
 
